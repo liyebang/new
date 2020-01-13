@@ -7,6 +7,15 @@
       <hr/>
       <Son @appmethod='setAppdata'/>
     </div>
+    <hr/>
+    <p><router-link to='/'>/</router-link></p>
+    <p><router-link to='/user'>user</router-link></p>
+    <p><router-link to='/user?username=aaa'>user?username=aaa</router-link></p>
+    <p>
+      <router-link :to='`/id/${num}`'>id</router-link>
+      <button @click="handleIdAdd">id+1</button>
+    </p>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -28,6 +37,9 @@ export default {
   methods:{
     setAppdata(data){
       this.num = data;
+    },
+    handleIdAdd(){
+      this.num++;
     }
   }
 }

@@ -15,6 +15,9 @@
       <router-link :to='`/id/${num}`'>id</router-link>
       <button @click="handleIdAdd">id+1</button>
     </p>
+    <p>
+      <router-link to='/vuex'>vuex</router-link>
+    </p>
     <router-view></router-view>
   </div>
 </template>

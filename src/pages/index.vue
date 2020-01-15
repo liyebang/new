@@ -10,8 +10,13 @@ export default {
 }
 </script>
 
+<<<<<<< HEAD
 <style lang='less'>
 .index-page{
 
 }
+=======
+<style>
+
+>>>>>>> origin/master
 </style>

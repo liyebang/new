@@ -8,6 +8,7 @@
       <Son @appmethod='setAppdata'/>
     </div>
     <hr/>
+<<<<<<< HEAD
     <p><router-link to='/'>/</router-link></p>
     <p><router-link to='/user'>user</router-link></p>
     <p><router-link to='/user?username=aaa'>user?username=aaa</router-link></p>
@@ -21,6 +22,8 @@
     <p>
       <router-link to="/ElementUI">ElementUI</router-link>
     </p>
+=======
+>>>>>>> origin/master
     <router-view></router-view>
   </div>
 </template>

@@ -10,7 +10,14 @@ export default {
     mounted(){
         this.$axios({
             url: "https://api.github.com/users",
-            method: "GET",
+            // method: "GET",
+            // params:{
+            //     user:'aaa'
+            // }
+            method:"POST",
+            data:{
+                user:'aaa'
+            }
         }).then(res => {
             window.console.log(res)
         })

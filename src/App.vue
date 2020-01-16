@@ -21,6 +21,9 @@
     <p>
       <router-link to="/ElementUI">ElementUI</router-link>
     </p>
+    <p>
+      <router-link to="/axios">axios</router-link>
+    </p>
     <router-view></router-view>
   </div>
 </template>

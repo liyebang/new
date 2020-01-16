@@ -11,6 +11,8 @@ Vue.config.productionTip = false
 import router from './router'
 import store from './store/index'
 
+import axios from './axios'
+Vue.prototype.$axios = axios;
 
 
 

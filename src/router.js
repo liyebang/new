@@ -8,12 +8,14 @@ import User from './pages/user'
 import Id from './pages/id'
 import Vuex from './pages/vuex'
 import ElementUI from './pages/ElementUI'
+import Axios from './pages/axios'
 
 let routes =[
     {path:'/',component:Index},
     {path:'/user',component:User},
     {path:'/vuex',component:Vuex},
     {path:'/ElementUI',component:ElementUI},
+    {path:'/axios',component:Axios},
     {path:'/id/:id',component:Id}
 ]
 

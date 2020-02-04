@@ -9,6 +9,7 @@
                <button @click="handleDelet(index)">删除</button>
           </div>
           <button @click="handleOpen">打开新页面</button>
+          <div>分支测试</div>
       </div>
   </div>
 </template>

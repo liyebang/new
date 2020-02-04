@@ -27,6 +27,9 @@
     <p>
       <router-link to="/test">test</router-link>
     </p>
+    <p>
+      <router-link to="/me">me</router-link>
+    </p>
     <router-view></router-view>
   </div>
 </template>

@@ -10,6 +10,7 @@ import Vuex from './pages/vuex'
 import ElementUI from './pages/ElementUI'
 import Axios from './pages/axios'
 import Test from './pages/test'
+import Me from './pages/me'
 
 let routes =[
     {path:'/',component:Index},
@@ -18,7 +19,8 @@ let routes =[
     {path:'/ElementUI',component:ElementUI},
     {path:'/axios',component:Axios},
     {path:'/test',component:Test},
-    {path:'/id/:id',component:Id}
+    {path:'/id/:id',component:Id},
+    {path:'/me',component:Me}
 ]
 
 let router = new VueRouter({routes})

@@ -21,6 +21,7 @@ const ElementUI = () => import(/* webpackChunkName: "group-foo" */ './pages/Elem
 const Axios = () => import(/* webpackChunkName: "group-foo" */ './pages/axios.vue')
 const Test = () => import(/* webpackChunkName: "group-foo" */ './pages/test.vue')
 const Me = () => import(/* webpackChunkName: "group-foo" */ './pages/me.vue')
+const Xzfz = () => import(/* webpackChunkName: "group-foo" */ './pages/xiazaifenzhi.vue')
 
 
 
@@ -35,7 +36,9 @@ let routes =[
     {path:'/axios',component:Axios},
     {path:'/test',component:Test},
     {path:'/id/:id',component:Id},
-    {path:'/me',component:Me}
+    {path:'/me',component:Me},
+    {path:'/xzfz',component:Xzfz}
+
 ]
 
 let router = new VueRouter({routes})

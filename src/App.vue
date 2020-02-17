@@ -30,6 +30,9 @@
     <p>
       <router-link to="/me">me</router-link>
     </p>
+    <p>
+      <router-link to="/xzfz">下载远程分支测试页面</router-link>
+    </p>
     <router-view></router-view>
   </div>
 </template>
